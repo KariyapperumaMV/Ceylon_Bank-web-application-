@@ -1,0 +1,63 @@
+#accRates {
+    float: left;
+    width: 50%;
+}
+
+#excRates {
+    float: right;
+    width: 50%;
+}
+
+.rateB {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#SavingAcc:hover {
+    background-color: #95989a;
+}
+
+#timedep:hover {
+    background-color: #95989a;
+}
+
+#debcard:hover {
+    background-color: #95989a;
+}
+
+#T1 {
+    border-style: double;
+    height: 500px;
+}
+
+#rateTable {
+    width: 95%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+}
+
+#rateTable tr:nth-child(odd) {
+    background-color: #6a97c4;
+}
+
+#rateTable th {
+    background-color: #154360;
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: right;
+    line-height: 0px;
+}
+
+#T2 {
+    border-style: double;
+    height: 500px;
+}

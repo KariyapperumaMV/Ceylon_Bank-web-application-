@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rates</title>
+    <!--adding css file-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/ratesstyle.css">
+    <script src="../js/rateScript.js"></script>
+    <!--adding icoon-->
+    <link rel="icon" href="images/icon.ico">
+
+</head>
+
+<body>
+    <!--header-->
+    <!--adding rectangle-->
+    <div class="rectangle1">
+
+        <!--adding horizonal line-->
+        <hr class="hr">
+
+        <div>
+            <table class="table_header">
+                <tr>
+                    <td width="25%">
+                        <!-- add a logo -->
+                        <a href="index.html">
+                            <image src="../images/logo.jpg" alt="Ceylon Bank Logo" class="logo">
+                        </a>
+                    </td>
+                    <td width="75%">
+                        <!--navigation bar-->
+                        <br>
+                        <div class='navigation'>
+                            <a href="../index.html">Home</a>
+                            <a class="active" href="rates.html">Rates</a>
+                            <a href="career.html">Career</a>
+                            <a href="network.html">Network</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="aboutus.html">AboutUs</a>
+                            <div class="search container">
+                                <form action="action.php">
+                                    <input type="text" placeholder="Search.." name="search">
+                                    <button type="submit" name=""><img src="../images/search.png" height="20" width="20" margin-top="5"/></button>
+                                </form>
+                            </div>
+                        </div>
+                        <hr class="hr">
+                        <!--sub navigation bar-->
+                        <div class="subnavi">
+                            <a href="account.html">Account</a>
+                            <a href="bill.html">Pay Bill</a>
+                            <a href="fund.html">Transfer Fund</a>
+                            <a href="lr.html">Request Loan</a>
+                            <a href="newaccount.html">Open account</a>
+                            <a href="register.html">Register</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!--adding horizonal line-->
+        <hr class="hr">
+        <!--body-->
+        <div>
+            <div id="accRates">
+                <table border="0">
+                    <tr>
+                        <th><button type="button" id="SavingAcc" onclick="chengtable('b1')" class="rateB">Savings Accounts</button></th>
+                        <th><button type="button" id="timedep" onclick="chengtable('b2')" class="rateB">Time Deposits</button></th>
+                        <th><button type="button" id="debcard" onclick="chengtable('b3')" class="rateB">Debit Cards</button></th>
+                    </tr>
+                </table>
+                <div id="T1">
+                    <h3>
+                        <center>Choos Type</center>
+                    </h3>
+                </div>
+            </div>
+            <div id="excRates">
+                <h2>Exchange Rate</h2>
+                <div id="T2">
+                    <table id="rateTable">
+                        <tr>
+                            <th>Country</th>
+                            <th>We buy</th>
+                            <th>We sell</th>
+                        </tr>
+                        <tr>
+                            <td><b>USD</b></td>
+                            <td>354.7678</td>
+                            <td>364.7323</td>
+                        </tr>
+                        <tr>
+                            <td><b>GBP</b></td>
+                            <td>439.3968</td>
+                            <td>450.2423</td>
+                        </tr>
+                        <tr>
+                            <td><b>EUR</b></td>
+                            <td>371.1843</td>
+                            <td>381.8332</td>
+                        </tr>
+                        <tr>
+                            <td><b>JPY</b></td>
+                            <td>2.7323</td>
+                            <td>2.8397</td>
+                        </tr>
+                        <tr>
+                            <td><b>CNY</b></td>
+                            <td>51.9501</td>
+                            <td>54.2127</td>
+                        </tr>
+                        <tr>
+                            <td><b>AUD</b></td>
+                            <td>245.9156</td>
+                            <td>257.2205</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
