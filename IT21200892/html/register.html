@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<!--adding css file-->
+		<link rel="stylesheet" href="../css/header-footer.css">
+		<link rel="stylesheet" href="../css/register.css">
+		
+	
+		<title>Register</title>
+		
+		<!--adding icoon-->
+		<link rel="icon" href="../images/icon.ico">
+		
+	</head>
+	<body>
+	
+	<!--header-->
+	<div class="header">
+	
+		<!--adding horizonal line-->
+		<hr class="hr">
+		
+		<div>
+			<table class="table_header">
+				<tr>
+					<td width="25%">
+						<!-- add a logo --> 
+						<a href="index.html">
+							<image src= "../images/logo.jpg" alt="Ceylon Bank Logo" class="logo">
+							<script  src="../js/register.js"> </script>
+						</a>
+					</td>
+					<td width="75%">
+						<!--navigation bar-->
+						<br>
+						<div class='navigation'>
+							<a  href="index.html">Home</a>						
+							<a href="career.html">Career</a>
+							<a  href="network.html">Network</a>
+							<a href="contact.html">Contact</a>
+							<a href="aboutus.html">AboutUs</a>
+							<div class="search container">
+								<form action="action.php">
+									<input type="text" placeholder="Search.." name="search">
+									<button type="submit"name=""><img src="../images/search.png" height="20" width="20" margin-top="5"/></button>
+								</form>
+							</div>						
+						</div>
+						<hr class="hr">
+						<!--sub navigation bar-->
+						<div class="subnavi">
+							<a href="newaccount.html">Open account</a>
+							<a class="active" href="register.html">Register</a>
+							<a href="login.html">Login</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--content-->
+	<div class="rectangle1">
+		
+		<!--adding horizonal line-->
+		<hr class="hr">
+		<div class="rectangle2" >
+			<div class="rectangle3" >
+				<h1>Register for Online Banking</h1>
+				
+				<form method="POST" action="../php/register.php">
+				
+					<div class="form-container">
+					
+						<b>Account Number :</b>
+						<input  type="text" name="accNo" pattern="[0-9]{15}" placeholder="xxx-x-xxx-x-xxxxxxx" oninvalid="this.setCustomValidity('Account number should contain 15 digits.')"required>
+						<br>
+						
+						<b>User Name :</b>
+						<input  type="text" name="userName" maxlength="50" placeholder="Enter User Name" required>
+						<br>
+						
+						<b>Password :</b>
+						<input  type="Password" name="password" pattern="(?=.*[0-9])(?=.*[!@#&$^%*])(?=.*[a-z])(?=.*[A-Z]).{6,12}" placeholder="Enter Password" title="Password should be of 6-12 lenght and should contain at least one Special Character, a Digit , Uppercase letter and a Lowercase letter. " required>
+						<br>
+						
+						<b>Confirm Password :</b>
+						<input  type="Password" name="conpassword" placeholder="Confirm Password"  required>
+						<br>
+						
+						<b>Choose Security Question :</b>&nbsp;
+						<select name="security" id="security" oninvalid="this.setCustomValidity('Please select a security question.')" required>
+							<option value="" > Select </option>
+							<option value="1" > Mother's Name </option>
+							<option value="2" > Favourite Flower </option>
+							<option value="3" > Childhood Superhero </option>
+							<option value="4" > Father's Namee </option>
+							<option value="5" > Favourite Country </option>
+						</select><br>
+						
+						<b>Answer :</b><br>
+						<input  type="text" name="answer" maxlength="50"  placeholder="Enter Answer" required>
+						<br><br>
+						
+					
+						<input type="checkbox" name="terms" oninvalid="this.seetCustomValidity('Please accept Terms and Conditions to complete the registration process.')" required>&nbsp;
+						<a href="https://terms.ceylonbank.lk" target="_blank" name="tc">Accept Terms and Conditions</a>
+						<br>
+						
+						<center>
+						<button type="reset" >Clear</button>&nbsp;
+						<button  style="background-color:#154360" type="submit" value="sumbmit" name="register" onclick="validatePassword()">Register</button>
+						
+						
+						</center>
+						
+					</div>
+					
+				</form>
+				
+			</div>
+		</div>
+		
+	</div>
+	
+	<!--footer-->
+	<div class="footer">
+		<!-- footer begining horizontal line-->
+		<hr class="hr">
+		
+		<center>
+		<table class="footer" >
+			<tr>
+				<td>
+					<h2>About Us</h2>
+					<ul>
+						<li><a href="">Our mission</a></li>
+						<li><a href="">Our vision</a></li>
+						<li><a href="../../IT21312144/html/contact.html">Contact Us</a></li>
+						<li><a href="network.html">Our Network</a></li>
+					</ul>
+				</td>
+				
+				<td>
+					<h2>Quick Links</h2>
+					<ul>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="">Open Account</a></li>
+						<li><a href="">Career</a></li>
+						<li><a href="">Promotions</a></li>
+					</ul>
+				</td>
+				
+				<td>
+				<h2>Ceylon Bank</h2>
+					<ul>
+						<li>Address : No:147, Kandy Road, Kiribathgoda</li>
+						<li>Tel : +94 11 2338741</li>
+						<li>Email : CeylonBank@ceylon.lk </li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+		</center>
+		<hr class="hr">
+		<center>© 2022 Ceylon Bank All Rights Reserved </center>
+		<!-- footer closing horizontal line-->
+		<hr class="hr">
+	
+	</div>
+	
+	</body>
+</html>

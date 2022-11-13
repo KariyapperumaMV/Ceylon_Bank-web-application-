@@ -1,0 +1,55 @@
+.rectangle1{
+	background-image:url("../images/beach.jpg");
+	height:600px;
+}
+
+.rectangle2{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	height: 560px;
+	width: 600px;
+	background-color: #154360; 
+}
+
+.rectangle3{
+	display:inline-block;
+	margin-left: 20px;
+    margin-right: 20px;
+	margin-top:20px;
+	margin-bottom:auto;
+	height: 520px;
+	width: 560px;
+	background-color: #fff;	
+}
+
+h1{
+	color:#000;
+	text-align:center;
+	padding-top:30px;
+}
+
+.btn-group button {
+  background-color: #154360;
+  border: 1px solid green; 
+  color: white; 
+  margin: 10px 140px;
+  padding: 10px 24px; 
+  cursor: pointer; 
+  width: 50%;
+  display: block; 
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.btn-group button:hover {
+  background-color: #333;
+}
+.btn-group a{
+	color:white;
+	text-decoration:none;
+}

@@ -1,0 +1,28 @@
+
+ .content table {
+	  
+	width: 1000px;
+	margin-left: 130px;
+    margin-right: auto;
+	margin-top:50px;
+	margin-bottom:auto;
+	spacing:0;
+  }
+ .content th{
+	padding:12px 20px; 
+	background-color:#777474;
+ } 
+.content td{
+	text-align:center;
+	padding:12px 20px;
+	background-color:#D6DDDC;
+}
+  
+.one{
+	  width:235px;
+ }
+  
+.two{
+	width:520px
+ }
+  

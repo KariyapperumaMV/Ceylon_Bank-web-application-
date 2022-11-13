@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<!--adding css file-->
+		<link rel="stylesheet" href="../css/header-footer.css">
+		<link rel="stylesheet" href="../css/network.css">
+		
+	
+		<title>Network</title>
+		
+		<!--adding icoon-->
+		<link rel="icon" href="../images/icon.ico">
+		
+	</head>
+	<body>
+	
+	<!--header-->
+	<div class="header">
+	
+		<!--adding horizonal line-->
+		<hr class="hr">
+		
+		<div>
+			<table class="table_header">
+				<tr>
+					<td width="25%">
+						<!-- add a logo --> 
+						<a href="index.html">
+							<image src= "../images/logo.jpg" alt="Ceylon Bank Logo" class="logo">
+						</a>
+					</td>
+					<td width="75%">
+						<!--navigation bar-->
+						<br>
+						<div class='navigation'>
+							<a  href="index.html">Home</a>						
+							<a href="career.html">Career</a>
+							<a class="active" href="network.html">Network</a>
+							<a href="contact.html">Contact</a>
+							<a href="aboutus.html">AboutUs</a>
+							<div class="search container">
+								<form action="action.php">
+									<input type="text" placeholder="Search.." name="search">
+									<button type="submit"name=""><img src="../images/search.png" height="20" width="20" margin-top="5"/></button>
+								</form>
+							</div>						
+						</div>
+						<hr class="hr">
+						<!--sub navigation bar-->
+						<div class="subnavi">
+							<a href="newaccount.html">Open account</a>
+							<a href="register.html">Register</a>
+							<a href="login.html">Login</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--content-->
+	<div class="rectangle1" style="height:1000px">
+		
+		<!--adding horizonal line-->
+		<hr class="hr">
+		
+		<div class="content">
+			<table border="1">
+				<tr>
+					<th class="one">Branch</th>
+					<th class="two">Address</th>
+					<th class="one">Phone Number</th>
+				</tr>
+				<tr>
+					<td class="one">Regional Loan Centre - Kurunagala</td>
+					<td class="two">Dector Building , Negombo Road , Kurunagala</td>
+					<td class="one">+94 37 2052844</td>
+				</tr>
+				<tr>
+					<td class="one">Batticaloa SGB</td>
+					<td class="two">Covington Road , Batticaloa</td>
+					<td class="one">+94 37 2052475</td>
+				</tr>
+				<tr>
+					<td class="one">Addalachchenai</td>
+					<td class="two">No: 01/A , Main Street , Addalachchenai</td>
+					<td class="one">+94 27 2052475</td>
+				</tr>
+				<tr>
+					<td class="one">Administrative Complex - Isurupaya</td>
+					<td class="two">Ministry of Education , Isurupaya , Pelawatta</td>
+					<td class="one">011 2914189</td>
+				</tr>
+				<tr>
+					<td class="one">Agalawatta</td>
+					<td class="two">No: 05 , kaluthara Road , Agalawatta</td>
+					<td class="one">011 2754238</td>
+				</tr>
+				<tr>
+					<td class="one">Baduraliya</td>
+					<td class="two">No: 36/1 , Agalawatta Road , Baduraliya</td>
+					<td class="one">034 2244952</td>
+				</tr>
+				<tr>
+					<td class="one">Batuwatta</td>
+					<td class="two">No: 01/A , Station Road , Batuwatta</td>
+					<td class="one">011 2954778</td>
+				</tr>
+				<tr>
+					<td class="one">Ahangama</td>
+					<td class="two">No: 01/A , Galle Road , Ahangama</td>
+					<td class="one">011 5478796</td>
+				</tr>
+				<tr>
+					<td class="one">Ahungalla</td>
+					<td class="two">No: 01/A , Main Street , Ahungalla</td>
+					<td class="one">+94 27 2052475</td>
+				</tr>
+				<tr>
+					<td class="one">Badulla SGB</td>
+					<td class="two">No: 47 , Bank Road, Badulla</td>
+					<td class="one">011 2954778</td>
+				</tr>
+				<tr>
+					<td class="one">Balangoda</td>
+					<td class="two">Main Street , Balangoda</td>
+					<td class="one">+94 37 2052844</td>
+				</tr>
+				<tr>
+					<td class="one">Bopitiya</td>
+					<td class="two">No:02 , Bopitiya Juction , Pamunugama , Bopitiya</td>
+					<td class="one">+94 37 5000844</td>
+				</tr>
+				<tr>
+					<td class="one">Central Bus Stand , Colombo</td>
+					<td class="two">Central Bus Stand , Colombo 11</td>
+					<td class="one">011 5365118</td>
+				</tr>
+				<tr>
+					<td class="one">Pettah</td>
+					<td class="two">No:212/63 , Gasworks Street , Colombo:11</td>
+					<td class="one">011 2434478</td>
+				</tr>
+				<tr>
+					<td class="one">Ederemulla</td>
+					<td class="two">No: 47 , Ederemulla , Wattala</td>
+					<td class="one">011 2937421</td>
+				</tr>
+				<tr>
+					<td class="one">Delgoda</td>
+					<td class="two">No:351/H/5 , New Kandy Road , Delgoda</td>
+					<td class="one">+94 37 20511144</td>
+				</tr>
+				<tr>
+					<td class="one">Dalugama</td>
+					<td class="two">No:456/A , Kandy Road , Dalugama , Kalaniya</td>
+					<td class="one">011 2909929</td>
+				</tr>
+			</table>
+		
+		</div>
+	</div>
+	<!--footer-->
+	<div class="footer">
+		<!-- footer begining horizontal line-->
+		<hr class="hr">
+		
+		<center>
+		<table class="footer" >
+			<tr>
+				<td>
+					<h2>About Us</h2>
+					<ul>
+						<li><a href="">Our mission</a></li>
+						<li><a href="">Our vision</a></li>
+						<li><a href="../../IT21312144/html/contact.html">Contact Us</a></li>
+						<li><a href="network.html">Our Network</a></li>
+					</ul>
+				</td>
+				
+				<td>
+					<h2>Quick Links</h2>
+					<ul>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="">Open Account</a></li>
+						<li><a href="">Career</a></li>
+						<li><a href="">Promotions</a></li>
+					</ul>
+				</td>
+				
+				<td>
+				<h2>Ceylon Bank</h2>
+					<ul>
+						<li>Address : No:147, Kandy Road, Kiribathgoda</li>
+						<li>Tel : +94 11 2338741</li>
+						<li>Email : CeylonBank@ceylon.lk </li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+		</center>
+		<hr class="hr">
+		<center>© 2022 Ceylon Bank All Rights Reserved </center>
+		<!-- footer closing horizontal line-->
+		<hr class="hr">
+	
+	</div>
+	
+	</body>
+</html>

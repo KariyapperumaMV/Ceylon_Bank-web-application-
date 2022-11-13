@@ -1,0 +1,73 @@
+.rectangle1{
+	background-image:url("../images/beach.jpg");
+	height:1000px;
+}
+
+.rectangle2{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	height: 730px;
+	width: 1000px;
+	background-color: #154360; 
+}
+
+.rectangle3{
+	display:inline-block;
+	margin-left: 25px;
+    margin-right: auto;
+	margin-top:25px;
+	margin-bottom:auto;
+	height: 680px;
+	width: 950px;
+	background-color: #fff;	
+}
+
+h1{
+	color:#000;
+	text-align:center;
+	padding-top:30px;
+}
+
+.rectangle3  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size:17px;
+}
+
+.rectangle3 select{
+	padding: 14px 20px;
+	margin: 22px 0;
+	cursor: pointer;
+	position:center;
+	width: 25%;
+}
+
+.rectangle3 button {
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin-top:30px;
+  border: none;
+  cursor: pointer;
+  position:relative;
+  width: 25%;
+}
+
+
+.rectangle3.submitbtn{
+	  background-color: #154360;
+}
+
+.rectangle3 button:hover {
+  opacity: 0.8;
+}
+
+.form-container {
+  padding: 16px;
+}

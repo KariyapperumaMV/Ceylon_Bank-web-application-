@@ -1,0 +1,23 @@
+<?php
+
+	//linking configuration file
+	require 'config.php';
+	
+	//assigning data
+	if(isset($_POST["nextbtn"])){
+		$rNo = $_POST["recepientNo"];
+		$rName = $_POST["recepientName"];
+		$rBank = $_POST["bank"];
+		$rBranch = $_POST["branch"];
+		$tamount = $_POST["amount"];
+						
+		$sql="INSERT INTO transfer(T_AccNo,T_Name,T_Bank,T_Branch,T_Amount)VALUE('$rNo','$rName','$rBank','$rBranch','$tamount')";
+						
+		if($con->query($sql)){
+			echo"Inserted successfully";
+		}
+		else
+			echo"Error : ".$con->error;
+		}
+		$con->close();
+?>

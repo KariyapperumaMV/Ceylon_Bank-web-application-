@@ -1,0 +1,156 @@
+body
+{
+	background-image:url("../images/background.jpg");
+	background-size:cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo
+{
+	margin-left: 50px;
+	margin-top:5px;
+	width:200px;
+	height:150px; 
+}
+
+/*header rectangle*/
+.header{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:20px;
+	margin-bottom:-7px;
+	height: 180px;
+	width: 95%;
+	background-color: #FFFFFF; 
+}
+
+/*footer rectangle*/
+.footer{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:-7px;
+	margin-bottom:20px;
+	height: 472px;
+	width: 95%;
+	background-color: #777474; 
+}
+
+/*body rectangle*/
+.rectangle1{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:-7px;
+	margin-bottom:-7px;
+	width: 95%;
+	background-color: #FFFFFF; 
+}
+
+.hr{
+  border: 2px solid #154360;
+}
+.table_header{
+	width:100%;
+}
+*{
+	box-sizing:border-box;
+}
+/*navigation bar*/
+.navigation{
+	width:100%;
+	background-color:#000;
+	overflow:auto;
+}
+
+.navigation a{
+	float:left;
+	padding:12px;
+	display:block;
+	color:white;
+	width:13%;
+	text-align:center;
+	text-decoration:none;
+	border-right:1px solid #bbb;
+}
+.navigation a.active{
+	background-color:#154360;
+	color:white;
+}
+.navigation a:hover{
+	background-color:#333;
+}
+
+/*search bar*/
+.navigation.search-container {
+	float:right;
+}
+.navigation input[type=text] {
+	padding: 6px;
+	border: none;
+	margin-top: 5px;
+	margin-left:40px;
+	font-size: 17px;
+	display:inline-block;
+}
+.navigation search container button{
+	float:right;
+	padding:6px 10px;
+	margin-top:8px;
+	margin-right:16px;
+	background:#fff;
+	font-size:17px;
+	border:none;
+	cursor:pointer;
+}
+.navigation search container button:hover{
+	background-color:#333;
+}
+
+/*sub-navigation*/
+.subnavi{
+	width:367.5px;
+	background-color:#777474;
+	overflow:auto;
+}
+.subnavi a{
+	float:left;
+	padding:8px;
+	display:block;
+	color:black;
+	width:122.5px;
+	text-align:center;
+	text-decoration:none;
+	border-right:1px solid #fff;
+	font-size:13px;
+}
+.subnavi a.active{
+	background-color:#154360;
+	color:white;
+}
+.subnavi a:hover{
+	background-color:#333;
+}
+
+/*Footer*/
+.footer table {
+	height:220px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom:auto;
+	text-align:left;
+
+  }
+ 
+.footer td{
+	padding:12px 20px;
+	width:400px;
+}
+
+.footer li, .footer a{
+	margin-top:10px;
+	text-decoration:none;
+	color:black;
+}
+
